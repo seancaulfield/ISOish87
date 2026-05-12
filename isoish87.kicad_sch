@@ -6122,6 +6122,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 481.076 159.004 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0b784906-54f6-43f9-b005-49d1df813349)
+    (property "Reference" "#PWR029" (at 481.076 165.354 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 481.076 164.084 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 481.076 159.004 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 481.076 159.004 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 40569faf-ff49-4e6c-87d9-04ab5767eef7))
+    (instances
+      (project "isoish87"
+        (path "/b531f1c3-24fa-4dc4-abd4-22db5f1ad808"
+          (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "schizobovine:WS2812B") (at 191.262 191.008 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b7d0d05-6fa2-4b75-81c8-8cd22c0e554a)
@@ -6560,6 +6585,32 @@
       (project "isoish87"
         (path "/b531f1c3-24fa-4dc4-abd4-22db5f1ad808"
           (reference "#PWR0211") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 481.076 156.464 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 137a719a-0498-4650-a5dd-a4e0b105d954)
+    (property "Reference" "C6" (at 481.711 154.559 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 481.711 158.369 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "schizobovine:C_0603_1608Metric" (at 481.076 156.464 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 481.076 156.464 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6d68247-de7e-4e07-8dd7-961d2c4369fe))
+    (pin "2" (uuid 3c40ac22-9380-411f-9730-a4e8b3512451))
+    (instances
+      (project "isoish87"
+        (path "/b531f1c3-24fa-4dc4-abd4-22db5f1ad808"
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -16407,6 +16458,31 @@
       (project "isoish87"
         (path "/b531f1c3-24fa-4dc4-abd4-22db5f1ad808"
           (reference "LD39") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 481.076 153.924 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b7177ab5-a6bd-420e-88b3-40cd45c01ba2)
+    (property "Reference" "#PWR030" (at 481.076 157.734 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 481.076 150.368 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 481.076 153.924 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 481.076 153.924 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 912273d3-e696-4b1f-8d71-809914dc015d))
+    (instances
+      (project "isoish87"
+        (path "/b531f1c3-24fa-4dc4-abd4-22db5f1ad808"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
